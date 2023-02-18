@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html lang="en" >
+<html lang="es" >
 <head>
   <meta charset="UTF-8">
-  <title>CodePen - Password Protected Web Page</title>
+  <title>Alvarez.tk - Página de acceso</title>
   <link rel="stylesheet" href="./style.css">
 
 </head>
@@ -10,16 +10,14 @@
 <!-- partial:index.partial.html -->
 <!DOCTYPE html>
 <html>
-<head>
-    <title>Login page</title>
-</head>
+
 <body>
   <div class="div1"> 
     <div class="div2">
       
       
     <form>
-        <label for="pswd">Enter password: </label>
+        <label for="pswd">Introduzca contraseña: </label>
       </br>
         <input type="password" id="pswd" class="box">
       </br>
@@ -30,11 +28,11 @@
 <!--Function to check password the already set password is admin-->
 <script type="text/javascript">
     function checkPswd() {
-        var confirmPassword = "admin";
+        var confirmPassword = "iknow";
         var password = document.getElementById("pswd").value;
         if (password == confirmPassword) {
-             window.location="https://www.speedquizzing.com";
-        window.location="welcome.html";
+             window.location="https://www.hello.com";
+        window.location="mainpage.html";
         }
         else{
             alert("Passwords do not match.");
